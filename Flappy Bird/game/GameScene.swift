@@ -594,7 +594,7 @@ class GameScene: SKScene {
                 SKAction.run { GameScene.githubButton.setScale(1.2) },
                 SKAction.wait(forDuration: 0.9)]),
                 completion: {
-                    guard let url = URL(string: "https://www.github.com/crypticplank/flappybird") else { return }
+                    guard let url = URL(string: "https://www.github.com/kylejohnsonkj/flappybird") else { return }
                     if #available(iOS 10.0, *) {
                         UIApplication.shared.open(url)
                     } else {

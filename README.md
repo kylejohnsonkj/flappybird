@@ -1,4 +1,9 @@
 # FlappyBird
+
+This is a fork of [brandonplank](https://github.com/crypticplank/flappybird)'s discontinued 1:1 Flappy Bird clone. The last released version started crashing on launch for me and I wanted to get the app running again (because who wouldn't want to still have Flappy Bird?).
+
+I do not intend to add any additional features. Build and run the project yourself, or see the **Releases** tab to download the IPA for sideloading. I can verify it is working as of iOS 26.
+
 ## NOTICE
 > *AS OF 08/10/2024, this repository will replaced by [https://github.com/freehelpdesk/flappybird](https://github.com/freehelpdesk/flappybird), Please go there for the new cross-platform version of this clone. Thanks.*
 
