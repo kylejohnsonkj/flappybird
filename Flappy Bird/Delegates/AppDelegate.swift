@@ -9,7 +9,6 @@ import UIKit
 import AVFoundation
 import Foundation
 import SpriteKit
-import Sentry
 import IQKeyboardManagerSwift
 
 @UIApplicationMain

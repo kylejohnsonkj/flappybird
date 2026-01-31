@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88112B3C2703F41E00B448DF /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 88112B3B2703F41E00B448DF /* Sentry */; };
 		881336392700DF5A00252F12 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881336382700DF5A00252F12 /* Then.swift */; };
 		885785C52855532B00D55755 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885785C42855532B00D55755 /* LoadingViewController.swift */; };
 		885E0F9728559FC2008C70EF /* MKOutlinedLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885E0F9628559FC2008C70EF /* MKOutlinedLabelNode.swift */; };
@@ -79,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88112B3C2703F41E00B448DF /* Sentry in Frameworks */,
 				886C3FC2270A1C9C00EF00C3 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +214,6 @@
 			);
 			name = "Flappy Bird";
 			packageProductDependencies = (
-				88112B3B2703F41E00B448DF /* Sentry */,
 				886C3FC1270A1C9C00EF00C3 /* IQKeyboardManagerSwift */,
 			);
 			productName = "Flappy Bird";
@@ -249,7 +246,6 @@
 			);
 			mainGroup = DD2376F5245B73B500B570A3;
 			packageReferences = (
-				88112B3A2703F41E00B448DF /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
 				886C3FC0270A1C9C00EF00C3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = DD2376FF245B73B500B570A3 /* Products */;
@@ -536,14 +532,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		88112B3A2703F41E00B448DF /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/getsentry/sentry-cocoa";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
 		886C3FC0270A1C9C00EF00C3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
@@ -555,11 +543,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		88112B3B2703F41E00B448DF /* Sentry */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 88112B3A2703F41E00B448DF /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
-			productName = Sentry;
-		};
 		886C3FC1270A1C9C00EF00C3 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 886C3FC0270A1C9C00EF00C3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
